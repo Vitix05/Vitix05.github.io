@@ -1,0 +1,90 @@
+/* Estilos para la segunda versión de la página web */
+
+/* Resetear márgenes, rellenos y bordes del cuerpo */
+body {
+  padding: 10px;
+  margin: 0;
+  border: none;
+  font-family: 'Roboto', sans-serif; /* Cambio de fuente */
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Color del texto */
+}
+
+/* Estilos para los párrafos */
+p {
+  margin: 15px 0; /* Espaciado entre párrafos */
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  margin: 25px 0 15px; /* Espaciado alrededor de los encabezados */
+  font-family: 'Arial Black', sans-serif; /* Fuente diferente para los encabezados */
+  color: #00ffcc; /* Color del texto */
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none; /* Quitamos subrayado */
+  color: #00cc99; /* Color del texto del enlace */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilos para la tabla */
+table {
+  width: 100%; /* Ancho completo */
+  border-collapse: separate; /* Colapsar bordes de la tabla */
+  border-spacing: 5px; /* Espaciado entre celdas */
+  background-color: rgba(0, 204, 153, 0.5); /* Color de fondo para la tabla */
+  border: 2px solid #fff; /* Borde sólido */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+caption {
+  font-weight: bold;
+  text-align: center;
+  background-color: #00ffcc; /* Color de fondo */
+  color: #000; /* Color del texto */
+  padding: 10px; /* Relleno */
+}
+
+th, td {
+  border: 1px solid #fff; /* Bordes */
+  padding: 10px; /* Relleno */
+  text-align: left; /* Alineación del texto */
+}
+
+/* Estilos para el formulario */
+input[type="text"], input[type="submit"] {
+  padding: 8px; /* Relleno */
+  border: 1px solid #00cc99; /* Borde */
+  margin-bottom: 15px; /* Margen inferior */
+  color: #000; /* Color del texto */
+}
+
+/* Estilos para el menú */
+.menu {
+  list-style: none; /* Quitamos viñetas */
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block; /* Mostrar elementos en línea */
+  margin-right: 15px; /* Espaciado entre elementos */
+}
+
+/* Estilos para textos con la clase "destacado" */
+.destacado {
+  font-style: italic; /* Cursiva */
+  color: #ffcc00; /* Color amarillo */
+}
+
+/* Estilos para textos con el identificador "importante" */
+#importante {
+  font-weight: bold; /* Texto en negrita */
+  color: #ff3300; /* Color rojo */
+}
+
